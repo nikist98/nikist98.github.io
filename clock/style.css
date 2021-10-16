@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Digital-7;
+    src: url('digital7font/digital-7\ \(mono\).ttf') format('truetype');
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    .clock-container {
+        /* background-color:teal; */
+        font-family: Digital-7;
+        font-size: 2rem;
+        border: 1px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        display: inline-block;
+        padding: 12px;
+        /* padding-top: 12px; */
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        /* justify-content: center; */
+        /* margin:50% 0;      /* if you want the clock to be at the middle of the page uncomment this line */
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+    /* Styles */
+    .clock-container {
+        /* background-color:teal; */
+        font-family: Digital-7;
+        font-size: 2rem;
+        border: 1px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        display: inline-block;
+        padding: 12px;
+        /* padding-top: 12px; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* justify-content: center; */
+        /* margin:50% 0;*/ /* if you want the clock to be at the middle of the page uncomment this line*/
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+/* viewport size <= 320px ----------- */
+@media only screen and (max-width: 320px) {
+    /* Styles */
+    .clock-container {
+        /* background-color:teal; */
+        font-family: Digital-7;
+        font-size: 2rem;
+        border: 1px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        display: inline-block;
+        padding: 12px;
+        /* padding-top: 12px; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* justify-content: center; */
+        /* margin:50% 0;*/ /* if you want the clock to be at the middle of the page uncomment this line*/
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+    .clock-container {
+        /* background-color: tomato; */
+        font-family: Digital-7;
+        font-size: 3rem;
+        border: 1px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        display: inline-block;
+        padding: 20px;
+        /* padding-top: 12px; */
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        /* justify-content: center; */
+        /* margin:50% 0;*/ /* if you want the clock to be at the middle of the page uncomment this line*/
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+    .clock-container {
+        /* background-color: tomato; */
+        font-family: Digital-7;
+        font-size: 3rem;
+        border: 1px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        display: inline-block;
+        padding: 20px;
+        /* padding-top: 12px; */
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        /* justify-content: center; */
+        /* margin:50% 0;*/ /* if you want the clock to be at the middle of the page uncomment this line*/
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+    .clock-container {
+        /* background-color: tomato; */
+        font-family: Digital-7;
+        font-size: 3rem;
+        border: 1px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        display: inline-block;
+        padding: 20px;
+        /* padding-top: 12px; */
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        /* justify-content: center; */
+        /* margin:50% 0;*/ /* if you want the clock to be at the middle of the page uncomment this line*/
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+    .clock-container {
+        /* background-color: white; */
+        font-family: Digital-7;
+        font-size: 10rem;
+        border: 5px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        /* display: inline-block; */
+        padding: 20px;
+        padding-top: 12px;
+        text-align: center;
+        display: flex;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* margin:50% 0;*/ /* if you want the clock to be at the middle of the page uncomment this line*/
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+    /* Styles */
+    .clock-container {
+        /* background-color: white; */
+        font-family: Digital-7;
+        font-size: 10rem;
+        border: 5px solid rgb(12, 11, 11);
+        border-radius: 10px;
+        /* display: inline-block; */
+        padding: 20px;
+        padding-top: 12px;
+        text-align: center;
+        display: flex;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* margin:50% 0;*/ /* if you want the clock to be at the middle of the page uncomment this line*/
+        /* position: absolute; */
+        /* flex-direction: column; */
+        /* align-items:center; */
+        /* left: 30%; */
+        /* top: 40%; */
+    }
+}
