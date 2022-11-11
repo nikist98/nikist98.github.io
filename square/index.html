@@ -1,4 +1,4 @@
-!TYPE A NUMBER>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,26 +9,24 @@
         nikola project (1# square)
     </title>
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <!-- <link rel="icon"  type="image/png" sizes="16×16" href="favicon.png"> -->
+    <link rel="icon"  type="image/png" sizes="16×16" href="./assets/images/favicon.ico">
 </head>
 
 <body>
-    <script src="./square_2.js">
-        document.getElementById("square").innerHTML
-    </script>
     <div>
-        <input type="text" id="input(n)" placeholder="Enter a number">
-
+        <input type="text" id="input-number" placeholder="Enter a number">
     </div>
+
     <button onclick="square()" id="square-button">Draw a square</button>
     <button onclick="clear()" id="clear-button">Clear</button>
+    
     <div>
         <pre>
-            <div id="square"></div>
+            <div id="result"></div>
         </pre>
     </div>
     <!-- <img src="Site-Ad.jpg" height=200 width=350> -->
-       
+    <script src="./square_2.js"></script> 
 </body>
 
 </html>
