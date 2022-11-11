@@ -1,4 +1,3 @@
-
 function square(n) {
     let row = "x".repeat(n);
     console.log(row)
@@ -14,4 +13,3 @@ function square(n) {
     console.log(row)
 }
 square(9)
-
