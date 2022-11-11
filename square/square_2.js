@@ -11,5 +11,6 @@ function square(n) {
         }
     }
     console.log(row)
+    document.write.log(row)
 }
 square(9)
