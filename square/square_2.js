@@ -11,5 +11,6 @@ function square(n) {
         }
     }
     console.log(row)
+    print (row2)
 }
 square(9)
