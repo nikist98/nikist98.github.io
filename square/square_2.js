@@ -13,3 +13,4 @@ function square(n) {
     console.log(row)
 }
 square(9)
+24
