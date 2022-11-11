@@ -1,4 +1,4 @@
-let n = Number(document.getElementByID("input"))
+let n = Number(document.getElementByID("input(n)"))
  
 function square() {
     let row = "x".repeat(n);
